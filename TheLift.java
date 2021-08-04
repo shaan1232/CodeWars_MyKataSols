@@ -13,12 +13,12 @@ public class TheLift {
     }
 
     public static int[] theLift(final int[][] queues, final int capacity) {
-        // Your code here
 
-        for (int i = 0; i < queues.length; i++) {
-            System.out.println(queues[i]);
-        }
-        return new int[0];
+        // NOTE: The Lift always starts on the ground floor (and people waiting on the
+        // ground floor may enter immediately)
+        int level = 0;
+
+        return new int[0]; // t
     }
 
     public static void main(String[] args) {
